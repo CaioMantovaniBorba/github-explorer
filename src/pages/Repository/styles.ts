@@ -10,7 +10,7 @@ export const Header = styled.header`
     align-items: center;
     text-decoration: none;
     color: #a8a8b3;
-    transition: color 0.5s;
+    transition: color 0.2s;
 
     &:hover {
       color: #666;
@@ -87,7 +87,7 @@ export const Issues = styled.div`
     width: 100%;
     padding: 25px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: transform 0.4s;
 
     & + a {
       margin-top: 15px;
@@ -119,4 +119,3 @@ export const Issues = styled.div`
     }
   }
 `;
-

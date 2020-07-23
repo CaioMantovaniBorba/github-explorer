@@ -47,7 +47,7 @@ export const Form = styled.form<FormProps>`
     font-weight: bold;
     border: 0;
     border-radius: 0 5px 5px 0;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
 
     &:hover {
       background: ${shade(0.2, '#04d361')};
@@ -73,7 +73,7 @@ export const Repositories = styled.div`
     width: 100%;
     padding: 25px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: transform 0.4s;
 
     & + a {
       margin-top: 15px;
